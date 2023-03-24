@@ -1,7 +1,7 @@
 flask-smorest: Flask/Marshmallow-based REST API framework
 =========================================================
 
-Release v\ |version|. (:ref:`Changelog <changelog>`)
+Release v\ |version|.
 
 **flask-smorest-sqla** adds SQLAlchemy integration to flask-smorest.
 
@@ -38,6 +38,7 @@ Project Info
     :maxdepth: 1
 
     license
+    changelog
 
 
 .. _flask-smorest: https://flask-smorest.readthedocs.io/
