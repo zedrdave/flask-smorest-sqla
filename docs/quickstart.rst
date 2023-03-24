@@ -16,8 +16,8 @@ With a Flask-Smorest `api` object registered:
     with app.app_context():
         db.create_all()
 
-    bp = CRUDBlueprint("test", __name__, db=db, url_prefix="/test", model_class=TestModel)
+    bp = CRUDBlueprint("Test", __name__, db=db, url_prefix="/test", model_class=TestModel)
     api.register_blueprint(bp)
 
 
-Will create all CRUD endpoints for resource `Test` at endpoint `/test`.
+Will create all CRUD endpoints for resource `Test` at URL `/test`.
