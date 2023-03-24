@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "flask-smorest-sqla"
 version = "0.1.0"
-description = "Adds SQLAlchemy support to Flask-Smorest"
+description = "Adds SQLAlchemy support to a Flask-Smorest REST API"
 authors = ["Dave <dave@tenko.ai>"]
 license = "MIT"
 homepage = "https://github.com/zedrdave/flask-smorest-sqla"

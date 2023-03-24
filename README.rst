@@ -5,7 +5,7 @@ flask-smorest-sqla
 Flask REST API without the cruft
 ==================================
 
-This packages builds upon `flask-smorest <https://github.com/marshmallow-code/flask-smorest>`_ and SQLAlchemy, to provide ORM integration and provide a boilerplate-free REST implementation with:
+This packages builds upon `flask-smorest <https://github.com/marshmallow-code/flask-smorest>`_ and SQLAlchemy, to provide ORM integration and a boilerplate-free REST implementation with:
 
 - CRUD endpoints
 - [To do] Access Authorisation
