@@ -1,9 +1,9 @@
-=============
+=======================
 flask-smorest-sqla
-=============
+=======================
 
 Flask REST API without the cruft
-=============================
+==================================
 
 This packages builds upon `flask-smorest <https://github.com/marshmallow-code/flask-smorest>`_ and SQLAlchemy, to provide ORM integration and provide a boilerplate-free REST implementation with:
 
@@ -12,7 +12,7 @@ This packages builds upon `flask-smorest <https://github.com/marshmallow-code/fl
 - [To do] Authentication
 
 Install
-=======
+============
 
 ::
 
@@ -20,7 +20,7 @@ Install
 
 
 Quickstart
-=======
+============
 
 With a Flask-Smorest `api` object registered:
 
@@ -48,6 +48,6 @@ Full documentation is available at http://flask-smorest-sqla.readthedocs.io/.
 
 
 License
-=======
+============
 
 MIT licensed. See the `LICENSE <https://github.com/marshmallow-code/flask-smorest/blob/master/LICENSE>`_ file for more details.
