@@ -5,7 +5,7 @@ from importlib import import_module
 
 import marshmallow as ma
 import sqlalchemy as sqla
-from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
+from marshmallow_sqlalchemy import SQLAlchemyAutoSchema, auto_field
 from sqlalchemy.inspection import inspect
 
 from flask.views import MethodView
@@ -59,7 +59,7 @@ class CRUDBlueprint(Blueprint):
             class SchemaPrimaryKeys:
                 pass
             for col in inspect(ModelCls).primary_key:
-                setattr(SchemaPrimaryKeys, col.name, ma.fields.Integer(dump_only=True))
+                setattr(SchemaPrimaryKeys, col.name, auto_field(dump_only=True))
 
             class SchemaCls(SQLAlchemyAutoSchema, SchemaPrimaryKeys):
                 class Meta:

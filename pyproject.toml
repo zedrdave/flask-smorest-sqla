@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "flask-smorest-sqla"
-version = "0.1.0"
+version = "0.2.0"
 description = "Adds SQLAlchemy support to a Flask-Smorest REST API"
 authors = ["Dave <dave@tenko.ai>"]
 license = "MIT"
@@ -12,7 +12,7 @@ include = ["LICENSE"]
 [tool.poetry.dependencies]
 python = "^3.9"
 sqlalchemy = "^2.0.7"
-flask-smorest = "^0.40.0"
+flask-smorest = "0.*"
 flask-sqlalchemy = "^3.0.3"
 marshmallow-sqlalchemy = "^0.29.0"
 
